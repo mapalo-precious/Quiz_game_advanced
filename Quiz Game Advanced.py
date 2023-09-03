@@ -1,3 +1,4 @@
+
 def christianity():
   welcome_ = 'Hello, here are some questions based on the Bible.'
   print(welcome_)
@@ -70,7 +71,7 @@ def christianity():
 
   question_CH_7 = input(
     '7. Who did Laban trick Jacob into marrying??\n a. Sarah \n  b. Esther \n c. Rachael \n d. Leah.:     ')  # Question 7
-  if question_CH_7.lower()=='d'
+  if question_CH_7.lower()=='d':
     print('You are correct')
     score_ = score_ + 1
     print('your score is {}'.format(score_))
